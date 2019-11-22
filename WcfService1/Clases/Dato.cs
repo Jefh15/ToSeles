@@ -12,7 +12,7 @@ namespace WcfService1
         //aqui nos conectariasmos a l SQL
         //private string cadena = "Data Source = SERVIDOR; Initial Catalog = Base de datos; Persist Security Info=True";
         //OJO NOTA: EN DATA SOURCE VA SU Server name: de SQL SERVER, en Initial Catalog = va el nombre de la tabla.
-        private static string cadena = "Data Source = localhost; Initial Catalog = sakila; Integrated Security = True";
+        private static string cadena = "Data Source = DESKTOP-Q0HH8K0; Initial Catalog = sakila; Integrated Security = True";
         public static IList<city> getCitiesSQL()
         {
             DataTable tabla = new DataTable();

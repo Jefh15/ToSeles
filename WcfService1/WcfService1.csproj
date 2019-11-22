@@ -12,7 +12,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WcfService1</RootNamespace>
     <AssemblyName>WcfService1</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <UseIISExpress>true</UseIISExpress>
@@ -22,6 +22,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -149,9 +150,25 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\actor.cs" />
+    <Compile Include="Clases\category.cs" />
     <Compile Include="Clases\city.cs" />
     <Compile Include="Clases\Cliente.cs" />
+    <Compile Include="Clases\Consulta_Actores.cs" />
+    <Compile Include="Clases\Consulta_Category.cs" />
+    <Compile Include="Clases\Consulta_Inventario.cs" />
+    <Compile Include="Clases\Consulta_Language.cs" />
+    <Compile Include="Clases\Consulta_Film.cs" />
+    <Compile Include="Clases\Consulta_Film_Actor.cs" />
+    <Compile Include="Clases\Consulta_Film_Category.cs" />
+    <Compile Include="Clases\Consulta_Film_Text.cs" />
     <Compile Include="Clases\Dato.cs" />
+    <Compile Include="Clases\film.cs" />
+    <Compile Include="Clases\film_actor.cs" />
+    <Compile Include="Clases\film_category.cs" />
+    <Compile Include="Clases\film_text.cs" />
+    <Compile Include="Clases\inventory.cs" />
+    <Compile Include="Clases\language.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
